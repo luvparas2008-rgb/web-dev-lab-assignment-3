@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio – Paras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>My Portfolio</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION (NEW FOR LAB 3) -->
+<section class="hero">
+  <div class="hero-text">
+    <h2>Hello, I'm Paras</h2>
+    <p class="highlight">Aspiring Web Developer</p>
+    <p>Welcome to my portfolio! I am learning web development and continuously improving my skills.</p>
+  </div>
+
+  <div class="hero-img">
+    <img src="profile.jpg" alt="My Photo">
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <h2>About Me</h2>
+  <p>
+    Hi! I’m Paras, a student learning web development. I enjoy building simple,
+    clean and responsive websites. This portfolio is an improved version of my Lab 2 work,
+    now updated using Flexbox, Grid, media queries, transitions, and animations.
+  </p>
+</section>
+
+<section id="skills" class="section skills">
+  <h2>My Skills</h2>
+
+  <!-- CSS GRID FOR SKILLS -->
+  <div class="skills-grid">
+    <div class="skill-card">HTML – Beginner</div>
+    <div class="skill-card">CSS – Beginner</div>
+    <div class="skill-card">JavaScript – Learning</div>
+    <div class="skill-card">Responsive Design</div>
+    <div class="skill-card">Basic Git/GitHub</div>
+  </div>
+</section>
+
+<section id="projects" class="section projects">
+  <h2>My Projects</h2>
+
+  <!-- CSS GRID FOR PROJECT CARDS -->
+  <div class="project-grid">
+
+    <a href="basic-html.html" class="project-card" target="_blank">
+      <h3>Basic HTML</h3>
+      <p>A simple page showing basic HTML structure.</p>
+    </a>
+
+    <a href="basic-CSS.html" class="project-card" target="_blank">
+      <h3>Basic CSS</h3>
+      <p>A small webpage demonstrating CSS styling and layout.</p>
+    </a>
+
+    <div class="project-card">
+      <h3>Mini JavaScript Task</h3>
+      <p>A small script experiment from Lab 2.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Contact Me</h2>
+
+  <form>
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name" required>
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email" required>
+
+    <label>Message</label>
+    <textarea rows="4" placeholder="Your message..." required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Paras | Web Development Portfolio</p>
+</footer>
+
+</body>
+</html>
